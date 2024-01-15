@@ -10,6 +10,4 @@ Rails.application.routes.draw do
   root 'questions#ask'
 
   get '/answer', to: 'questions#answer'
-
-  get '/move', to: 'questions#move'
 end
